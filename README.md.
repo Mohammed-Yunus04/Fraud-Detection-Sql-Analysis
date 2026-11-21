@@ -1,0 +1,76 @@
+Financial Fraud Detection & Risk Analysis Using SQL
+
+Project Overview
+
+This project focuses on analyzing financial transactions to identify fraudulent activities, evaluate account risk, and uncover potential fraud networks using MySQL.
+
+The project demonstrates SQL techniques used in financial fraud detection and risk analytics.
+
+Dataset Overview
+
+The project uses a relational database containing five tables:
+
+- "transactions" – Financial transaction records
+- "account_profiles" – Account-level risk information
+- "fraud_patterns" – Fraud pattern definitions
+- "network_edges" – Connections between accounts
+- "time_series_stats" – Hourly transaction statistics
+
+According to the project documentation, the dataset contains approximately:
+
+- 1,000,000 transactions
+- 50,000 accounts
+- 7 fraud pattern definitions
+- 7,411 network connections
+- 26,280 hourly records
+
+Tools & Technologies
+
+- MySQL
+- SQL
+
+SQL Concepts Demonstrated
+
+- SELECT, WHERE, ORDER BY and LIMIT
+- Aggregate functions and GROUP BY
+- INNER JOIN and LEFT JOIN
+- Subqueries and correlated subqueries
+- Common Table Expressions (CTEs)
+- Window functions: RANK, DENSE_RANK, ROW_NUMBER, NTILE and LAG
+- Views and stored procedures
+- User-defined functions
+- Triggers
+- UNION and self-joins
+- EXPLAIN for query performance analysis
+
+Business Questions Explored
+
+1. What is the overall fraud rate and financial exposure?
+2. Which merchant categories have higher fraud rates?
+3. Does two-factor authentication relate to lower fraud rates?
+4. Which accounts have higher historical fraud rates?
+5. Are unusually large transactions potential fraud signals?
+6. Which accounts are connected to known fraudsters?
+7. How does fraud change over time?
+8. Can connected accounts reveal potential fraud rings?
+
+Project Structure
+
+fraud-detection-sql-analysis/
+│
+├── README.md
+└── 00_full_project.sql
+
+How to Run
+
+1. Install MySQL.
+2. Set up the database and required tables.
+3. Load the dataset into the database.
+4. Open "sql_project.sql" in MySQL Workbench.
+5. Execute the queries section by section.
+
+Note: The SQL file references an existing database and tables. The database creation and dataset-loading scripts are not included in this version.
+
+Project Objective
+
+To demonstrate practical SQL skills through financial transaction analysis, fraud pattern investigation, account risk assessment, and network-based fraud analysis.
